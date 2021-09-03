@@ -1,0 +1,177 @@
+body{
+    margin: 0,auto;
+    background-color:grey;
+}
+.container{
+    margin: auto;
+    background-color: white;
+    width: 1000px;
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+.search{
+    float: right;
+    padding: 50px;
+}
+.clearfix{
+    clear: both;
+}
+.menu{
+    background-color: tomato;
+}
+.menu > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu > ul > li{
+    display: inline-block;
+
+}
+.menu > ul > li > a{
+    color: white;
+    font-family: serif;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    text-decoration: none;
+}
+.menu > ul > li > a:hover{
+    background-color: blue;
+}
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+    
+}
+.drop >li> a{
+    color: white;
+    background-color: black;
+    font-family: serif;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    text-decoration: none;
+
+}
+.drop >li> a:hover{
+    background-color: blue;
+}
+.menu > ul > li:hover .drop{
+    display: block;
+}
+.banner{
+    width: 1000px;
+    height: 664px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.c-holder{
+    background-color: cadetblue;
+}
+.content{
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+.content h1{
+    font-size: 1.5em;
+    font-family: sans-serif;
+}
+.content p{
+    font-family: sans-serif;
+}
+.side{
+    float: left;
+    padding: 25px;
+}
+.side h3{
+    font-size: 1.5em;
+    font-family: sans-serif;
+
+}
+.side ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+.side ul>li > a{
+    
+    font-family: serif;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+
+
+}
+.foot{
+    background-color: blue;
+    width: 1000px;
+    padding: 25px;
+    font-family: sans-serif;
+}
+.fbox{
+    width: 475px;
+    height: auto;
+    float: left;
+    font-family: sans-serif;
+    color: white;
+
+}
+.fbox > h3{
+    font-size: 1.5em;
+    color: white;
+}
+.fbox > ul > li >a{
+    font-family: serif;
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    font-style: bold;
+
+}
+.fbox address a{
+    font-family: serif;
+    color: white;
+    font-style: bold;
+
+}
+#search{
+	width:300px;
+	height:150px;
+	margin:auto;
+	margin-top:20px;
+	padding:15px;
+}
+button{
+	position:relative;
+	left:50px;
+}
+.aligning{
+	margin-left:450px;
+	margin-top:20px;
+}
+#imagebutton{
+    position:relative;
+	left:-10px;
+	top:-8px;
+	margin-bottom:15px;
+}
+#result{
+	margin-top:50px;
+}

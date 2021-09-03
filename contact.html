@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+    <link rel="stylesheet" href="./css/index.css">
+<body>
+    <div class="container">
+
+    <header>
+        <div class="logo">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.cFXyM3JzpnYNo3GTQm_8tgHaFj&pid=Api&P=0&w=211&h=159" alt="logo">
+        </div>
+        <div class="search">
+        <form >
+            <input type="search" name="s" placeholder="Search..." >
+            <input type="submit" value="^">
+        </form>
+        </div>
+        <div class="clearfix"></div>
+    
+        <nav class="menu">
+        
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About us
+                    <ul class="drop">
+                        <li><a href="../1/projects/p1.html">P1</a></li>
+                        <li><a href="../1/projects/p2.html">P2</a></li>
+                        <li><a href="../1/projects/p3.html">P3</a></li>
+                    </ul>
+                </a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+                <li><a href="./booksearch.html">Book search</a></li>
+
+            </ul>
+    
+        </nav>
+       
+    </header>
+<body>
+    
+
+<!-- Start Contact Section -->
+ <div class="w3-container w3-light-grey w3-padding-32 w3-padding-large" id="contact">
+  <div class="w3-content" style="max-width:600px">
+    <h4 class="w3-center"><b>Contact Us</b></h4>
+
+    <script type="text/javascript">var submitted=false;</script>
+    
+
+    
+    
+    <!-- Update the Google forms URL in action-->
+    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeRkiLGkSat63thOrA7qCCp2VFKTJYm8I2I3pLCxfSNKmshzQ/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm(); ">
+
+      
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" placeholder="Name" id="name" required name="entry.975336923">
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" placeholder="Email" id="email" required name="entry.928368721">
+      </div>
+      <div class="w3-section">
+        <label>Phone</label>
+        <input class="w3-input w3-border" type="text" placeholder="Phone" id="phone" required name="entry.708074577">
+      </div>
+      <label>Subject</label>
+        <input class="w3-input w3-border" type="text" placeholder="Subject" id="Subject" required name="entry.1583578378">
+      </div>
+
+      <div class="w3-section">
+        <button class="w3-button w3-block w3-black w3-margin-bottom" type="submit">SEND</button>
+      </div>
+    </form>
+</div>
+</div>
+    <script type="text/javascript">
+    function validateName() {
+            var name = document.getElementById('name').value;
+            if(name.length == 0) {
+              alert("Name can't be blank") ;
+              return false;
+
+            }
+            return true;
+          }
+
+          function validatePhone() {
+            var phone = document.getElementById('phone').value;
+            if(phone.length == 0) {
+              alert("Phone number can't be blank") ;//Validation Message
+              return false;
+            }
+
+            
+
+           return true;
+
+         }
+
+         function validateEmail () {
+
+          var email = document.getElementById('email').value;
+          if(email.length == 0) {
+            alert("Email can't be blank") ;//Validation Message
+            return false;
+
+          }
+
+          
+          return true;
+
+        }
+
+
+        function validateForm() {
+          if (!validateName() || !validatePhone() || !validateEmail()) {
+
+            alert("Form not submitted");//Validation Message
+            return false;
+          }
+          else {
+            alert("Form submitted");
+            submitted=true;
+            return true;
+           
+          }
+        }
+        </script>
+
+<!-- End Contact Section -->
+            
+</body>
+</html>
